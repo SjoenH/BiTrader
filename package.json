@@ -1,0 +1,34 @@
+{
+  "name": "bitrader",
+  "version": "1.0.0",
+  "description": "framework for develop automated trading strategy on bitmex",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saurox/BiTrader.git"
+  },
+  "keywords": [
+    "BiTrader",
+    "Bitmex",
+    "ea",
+    "bot",
+    "framework"
+  ],
+  "author": "sirio vitrugno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saurox/BiTrader/issues"
+  },
+  "homepage": "https://github.com/Saurox/BiTrader#readme",
+  "dependencies": {
+    "request": "^2.75.0",
+    "debug": "^2.6.6",
+    "eventemitter2": "^4.1.0",
+    "lodash": "^4.17.4",
+    "superagent": "^3.5.2",
+    "ws": "^2.3.1"
+  }
+}
